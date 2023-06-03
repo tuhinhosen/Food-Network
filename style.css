@@ -1,0 +1,163 @@
+body {
+    font-family: 'Geologica', sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.span-color {
+    color: orange;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: gray;
+}
+
+.text-paragraph {
+    color: gray;
+    font-size: 25px;
+}
+
+.health-tips {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+}
+
+.health-width {
+    width: 40%;
+    padding-right: 5%;
+
+}
+
+.health-width img {
+    width: 80%;
+}
+
+.about-bg {
+    background: url(7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.about-food {
+    display: flex;
+    align-items: center;
+
+}
+
+.about-details {
+    width: 40%;
+    padding-left: 10%;
+    margin-left: 10%;
+}
+
+.about-textarea {
+    width: 40%;
+    padding-right: 10%;
+    margin-right: 10%;
+}
+
+.about-details img {
+    width: 65%;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 22px 49px;
+    color: white;
+    border-radius: 35px;
+}
+
+h2 {
+    font-size: 40px;
+    color: gray;
+}
+
+p {
+    font-size: 20px;
+}
+
+.recipies {
+    text-align: center;
+
+}
+
+.recipies-area {
+    width: 40%;
+    margin: auto;
+    color: gray;
+}
+
+.recipies-1 img {
+    width: 100%;
+
+}
+
+.recipies-1 {
+    width: 20%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: left;
+    margin: 40px;
+    padding: 25px;
+
+
+}
+
+.food-details {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.subscriber {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    width: 78%;
+    margin: auto;
+    margin-bottom: 100px;
+
+
+}
+
+.testing {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+}
+
+.visitor span {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.footer-area {
+    text-align: center;
+    background-color: black;
+    height: 200px;
+
+}
+
+.footer-area h3 {
+    color: grey;
+    font-size: 30px;
+}
+
+.footer-area p {
+    color: aliceblue;
+}
