@@ -62,8 +62,8 @@ h1 {
 
 .about-textarea {
     width: 40%;
-    padding-right: 10%;
-    margin-right: 10%;
+    padding-right: 5%;
+    margin-right: 5%;
 }
 
 .about-details img {
@@ -146,6 +146,10 @@ p {
     font-weight: 700;
 }
 
+footer {
+    margin-top: 50px;
+}
+
 .footer-area {
     text-align: center;
     background-color: black;
@@ -160,4 +164,185 @@ p {
 
 .footer-area p {
     color: aliceblue;
+}
+
+.food-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.chicken {
+    width: 10%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+.chicken img {
+    width: 89%;
+    margin: auto
+}
+
+.chicken h3 {
+
+    color: orangered;
+}
+
+.food-items-header h1 {
+    text-align: center;
+    color: orange;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-family: 'Geologica', sans-serif;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .health-width {
+        width: 90%;
+
+    }
+
+    .health-width h1 {
+        font-size: 30px;
+    }
+
+    .image-group {
+        margin-top: 40px;
+    }
+
+    .image-group img {
+
+        height: 450px;
+    }
+
+    .health-tips {
+        flex-direction: column;
+    }
+
+    .about-food {
+        flex-direction: column-reverse;
+    }
+
+    .about-details img {
+        height: 350px;
+    }
+
+    .about-details {
+        width: 90%;
+    }
+
+    .about-bg {
+        background: url(7.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+
+    }
+
+    .about-textarea {
+        width: 90%;
+
+    }
+
+    .about-textarea p {
+        font-size: 16px;
+    }
+
+    .about-textarea {
+        font-size: 20px;
+    }
+
+    .about-textarea {
+        text-align: center;
+        padding: 0 20px;
+        margin-top: -20px;
+    }
+
+    .about-textarea h2 {
+        font-size: 30px;
+    }
+
+    .button {
+        text-decoration: none;
+        background-image: linear-gradient(orange, tomato);
+        padding: 10px 25px;
+        color: white;
+        border-radius: 35px;
+    }
+
+    .about-details {
+        margin-top: 20px;
+    }
+
+    .about-textarea {
+        margin-bottom: 20px;
+    }
+
+    .recipies-area {
+        width: 90%;
+    }
+
+    .food-details {
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .recipies-1 {
+        width: 80%;
+    }
+
+    .food-items {
+        flex-direction: column
+    }
+
+    .chicken {
+        width: 85%;
+    }
+
+    .testing {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+
+
+    }
+
+    .subscriber {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .visitor span {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .visitor p {
+        font-size: small;
+    }
+
+    .footer-area {
+
+        text-align: center;
+
+    }
+
+    .footer-area p {
+        font-size: 16px;
+    }
 }
